@@ -1,0 +1,1593 @@
+# Translation of Plugins - TI WooCommerce Wishlist - Stable (latest release) in Polish
+# This file is distributed under the same license as the Plugins - TI WooCommerce Wishlist - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-06-06 06:29:23+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/4.0.0-alpha.2\n"
+"Language: pl\n"
+"Project-Id-Version: Plugins - TI WooCommerce Wishlist - Stable (latest release)\n"
+
+#: views/admin/premium-features.php:50
+msgid "Subscribe"
+msgstr "Subskrybuj"
+
+#: admin/tinvwl.class.php:158
+msgid "TI Wishlist"
+msgstr "TI lista życzeń"
+
+#: admin/settings/general.class.php:301
+msgid "Plural form"
+msgstr "Liczba mnoga"
+
+#: admin/settings/general.class.php:293
+msgid "Single form"
+msgstr "Liczba pojedyncza"
+
+#: admin/settings/general.class.php:286
+msgid "These options allow changing word <code>wishlist</code> across all plugin instance"
+msgstr "Opcje umożliwiają zmianę słowa <code>lista życzeń</code> we wszystkich instancjach wtyczki"
+
+#: admin/settings/general.class.php:285
+msgid "Rename wishlist word across the plugin"
+msgstr "Zmień nazwę listy życzeń we wtyczce"
+
+#: admin/settings/general.class.php:279
+msgid "Rename wishlist Settings"
+msgstr "Zmień nazwę ustawień listy życzeń"
+
+#: includes/pluginextend.helper.php:615
+msgid "%1$s is conflicted with %2$s %3$s. Deactivating %1$s."
+msgstr "%1$s pozostaje w konflikcie z %2$s %3$s. Wyłączanie %1$s."
+
+#: admin/tinvwl.class.php:143
+msgid "The Support Chat is disabled by default for the plugin setting pages. Enable it to get the most from our service!"
+msgstr "Czat pomocy jest domyślnie wyłączony na stronach ustawień wtyczek. Włącz ją, aby jak najlepiej wykorzystać naszą usługę!"
+
+#: admin/tinvwl.class.php:145
+msgid "Enable Support Chat"
+msgstr "Włącz czat pomocy"
+
+#: admin/settings/general.class.php:950 views/wizard/step-support.php:22
+msgid "Enable the support chat to get the most from our service and get answers to your questions promptly. We optimized the support process to get the required details from your current setup to solve your issues faster. Dedicated to your Care."
+msgstr "Włącz czat pomocy technicznej, aby w pełni wykorzystać naszą usługę i szybko uzyskać odpowiedzi na swoje pytania. Zoptymalizowaliśmy proces pomocy technicznej, aby uzyskać wymagane informacje z bieżącej konfiguracji i szybciej rozwiązać problemy."
+
+#: admin/settings/integrations.class.php:100
+msgid "You can disable built-in integrations with 3rd party plugins and themes."
+msgstr "Możesz wyłączyć wbudowane integracje z wtyczkami i motywami innych firm."
+
+#: admin/settings/integrations.class.php:60
+msgid "Wishlist Integrations with 3rd party plugins and themes"
+msgstr "Integracje lista życzeń z wtyczkami i motywami innych firm"
+
+#: admin/settings/integrations.class.php:59
+msgid "Integrations"
+msgstr "Integracje"
+
+#: admin/settings/integrations.class.php:97
+msgid "Available Integrations"
+msgstr "Dostępne integracje"
+
+#: integrations/theme-flatsome.php:222
+msgid "Custom Title"
+msgstr "Własny tytuł"
+
+#: integrations/theme-flatsome.php:194
+msgid "Wishlist Icon Style"
+msgstr "Styl ikonki listy życzeń"
+
+#: admin/settings/general.class.php:381
+msgid "After summary"
+msgstr "Po podsumowaniu"
+
+#: integrations/theme-flatsome.php:211
+msgid "Show Wishlist Title"
+msgstr "Pokaż tytuł listy życzeń"
+
+#: admin/settings/general.class.php:380
+msgid "After Thumbnails"
+msgstr "Po miniaturach"
+
+#: includes/export.class.php:303
+msgid "There was an error exporting your settings, please try again."
+msgstr "Wystąpił błąd podczas eksportowania ustawień, proszę spróbować ponownie."
+
+#: includes/api/wishlist.class.php:350
+msgid "Remove product from wishlist failed."
+msgstr "Nie udało się usunięcie produktu z listy życzeń."
+
+#. Plugin Name of the plugin
+msgid "TI WooCommerce Wishlist"
+msgstr "Lista życzeń TI WooCommerce"
+
+#: integrations/product-extras-for-woocommerce.php:129
+msgid "Flat rate cost"
+msgstr "Koszt zryczałtowany"
+
+#: admin/settings/general.class.php:241 admin/settings/general.class.php:248
+msgid "You can use next placeholder in this field to get current product name: <code>{product_name}</code>, <code>{product_sku}</code>"
+msgstr "Można użyć kolejnego symbolu zastępczego, aby uzyskać aktualną nazwę produktu: <code>{product_name}</code>, <code>{product_sku}</code> "
+
+#: public/addtowishlist.class.php:213 public/wishlist/ajax.class.php:86
+#: public/wishlist/ajax.class.php:112 public/wishlist/ajax.class.php:123
+#: public/wishlist/ajax.class.php:130 public/wishlist/ajax.class.php:164
+#: public/wishlist/ajax.class.php:171
+msgid "Something went wrong"
+msgstr "Coś poszło nie tak."
+
+#: includes/api/frontend.class.php:67
+msgid "Return wishlist products counter."
+msgstr "Zwraca liczbę produktów na liście życzeń."
+
+#: includes/api/frontend.class.php:57
+msgid "Limit result set to specific ids."
+msgstr "Ogranicz wyniki do określonych identyfikatorów."
+
+#: views/admin/export-import-settings.php:84
+msgid "Download the entire plugin configuration."
+msgstr "Pobierz pełną konfigurację wtyczki."
+
+#: includes/export.class.php:237
+msgid "There was an error uploading the file."
+msgstr "Wystąpił błąd podczas wgrywania pliku."
+
+#: includes/export.class.php:191
+msgid "The settings file is empty."
+msgstr "Plik z konfiguracją jest pusty."
+
+#: admin/settings/settings.class.php:57
+msgid "Export/Import Plugin Settings"
+msgstr "Eksportuj/Importuj ustawienia wtyczki."
+
+#: admin/settings/settings.class.php:56
+msgid "Export/Import Settings"
+msgstr "Eksportuj/Importuj ustawienia"
+
+#: public/wishlist/social.class.php:200
+msgid "WhatsApp"
+msgstr "WhatsApp"
+
+#: views/admin/export-import-settings.php:88
+msgid "Export"
+msgstr "Eksport"
+
+#: views/admin/export-import-settings.php:79
+msgid "Export settings"
+msgstr "Ustawienia eksportu"
+
+#: views/admin/export-import-settings.php:65
+msgid "Import"
+msgstr "Import"
+
+#: views/admin/export-import-settings.php:57
+msgid "upload the exported file"
+msgstr "prześlij wyeksportowany plik"
+
+#: views/admin/export-import-settings.php:21
+msgid "You can import and export your TI WooCommerce Wishlist plugin settings here. "
+msgstr "Tutaj można wyeksportować i zaimportować ustawienia wtyczki TI WooCommerce Wishlist "
+
+#: includes/export.class.php:158 includes/export.class.php:249
+msgid "There was an error importing your settings, please try again."
+msgstr "Wystąpił błąd podczas wgrywania ustawień, proszę spróbować ponownie."
+
+#: includes/export.class.php:227
+msgid "The file you are uploading is too big."
+msgstr "Plik, który próbowano wgrać jest zbyt duży."
+
+#: includes/export.class.php:204
+msgid "The settings file is not valid."
+msgstr "Plik z konfiguracją nie jest prawidłowy."
+
+#: views/admin/export-import-settings.php:33
+msgid "Import settings"
+msgstr "Importuj ustawienia"
+
+#: public/wishlist/social.class.php:185
+msgid "Clipboard"
+msgstr "Schowek"
+
+#: public/wishlist/social.class.php:142
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: public/wishlist/social.class.php:121
+msgid "Twitter"
+msgstr "Twitter"
+
+#: public/wishlist/social.class.php:100
+msgid "Facebook"
+msgstr "Facebook"
+
+#: views/admin/export-import-settings.php:22
+msgid "This allows you to either backup the data, or to move your settings to a new WordPress instance."
+msgstr "Dzięki temu można wykonać kopię zapasową danych lub przenieść ustawienia do innej instancji WordPressa."
+
+#: includes/export.class.php:264
+msgid "Please upload the TI WooCommerce Wishlist setting file or copy the content."
+msgstr "Prześlij plik ustawień TI WooCommerce Wishlist lub skopiuj zawartość."
+
+#: integrations/wp-grid-builder.php:100
+msgid "Wishlist Button"
+msgstr "Przycisk listy życzeń"
+
+#: integrations/automatewoo/trigger-wishlist-item-added.php:13
+msgid "Customer Added Product To Wishlist (TI WooCommerce Wishlist)"
+msgstr "Klient dodał produkt do listy życzeń (TI WooCommerce Wishlist)"
+
+#: integrations/automatewoo/trigger-wishlist-item-added-to-cart.php:13
+msgid "Customer Added Product From Wishlist To Cart (TI WooCommerce Wishlist)"
+msgstr "Dodany przez klienta produkt z listy życzeń do koszyka (TI WooCommerce Wishlist)"
+
+#: integrations/automatewoo/trigger-wishlist-item-purchased.php:13
+msgid "Product Purchased From Wishlist (TI WooCommerce Wishlist)"
+msgstr "Produkt zakupiony z listy życzeń (TI WooCommerce Wishlist)"
+
+#: integrations/automatewoo/trigger-wishlist-reminder.php:42
+msgid "Once per customer"
+msgstr "Raz na klienta"
+
+#: integrations/automatewoo/trigger-wishlist-reminder.php:37
+msgid "E.g. Reminder any customers with items in a Wishlist every 30 days."
+msgstr "Na przykład: Przypominaj klientom, którzy mają przedmioty na liście życzeń, co 30 dni."
+
+#: integrations/automatewoo/trigger-wishlist-reminder.php:36
+msgid "Reminder interval (days)"
+msgstr "Interwał przypomnienia (dni)"
+
+#: integrations/automatewoo/trigger-wishlist-reminder.php:24
+msgid "Setting the 'Reminder Interval' field to 30 means this trigger will fire every 30 days for any users that have items in their wishlist. This trigger is checked daily. Please note this doesn't work for guests because their wishlist data only exists in their session data."
+msgstr "Ustawienie pola „Interwał przypomnienia” na 30 oznacza, że ten przełącznik będzie uruchamiany co 30 dni dla wszystkich użytkowników, którzy mają elementy na liście życzeń. Ten wyzwalacz jest sprawdzany codziennie. Pamiętaj, że to nie działa dla gości, ponieważ ich dane z listy życzeń istnieją tylko w danych sesji."
+
+#: integrations/automatewoo/trigger-wishlist-reminder.php:22
+msgid "Wishlist Reminder (TI WooCommerce Wishlist)"
+msgstr "Przypomnienie o liście życzeń (TI WooCommerce Wishlist)"
+
+#: integrations/automatewoo/trigger-wishlist-item-added-to-cart.php:14
+#: integrations/automatewoo/trigger-wishlist-item-added.php:14
+#: integrations/automatewoo/trigger-wishlist-item-purchased.php:14
+#: integrations/automatewoo/trigger-wishlist-item-removed.php:14
+#: integrations/automatewoo/trigger-wishlist-reminder.php:23
+msgid "Wishlists"
+msgstr "Listy życzeń"
+
+#: integrations/automatewoo/trigger-wishlist-item-removed.php:13
+msgid "Customer Removed Product From Wishlist (TI WooCommerce Wishlist)"
+msgstr "Klient usunął produkt z listy życzeń (TI WooCommerce Wishlist)"
+
+#: admin/settings/general.class.php:493 admin/settings/general.class.php:646
+msgid "\"Already In Wishlist\" button Text"
+msgstr "Tekst przycisku \"Już znajduje się na Liście życzeń\""
+
+#: admin/settings/general.class.php:483 admin/settings/general.class.php:636
+msgid "Show \"Already In Wishlist\" button Text"
+msgstr "Pokaż tekst przycisku \"Już znajduje się na Liście życzeń\""
+
+#: integrations/woocommerce-rental-and-booking.php:263
+msgid "Total Hours"
+msgstr "Wszystkie godziny"
+
+#: integrations/woocommerce-rental-and-booking.php:230
+#: integrations/woocommerce-rental-and-booking.php:244
+msgid "at"
+msgstr "w"
+
+#: integrations/woocommerce-rental-and-booking.php:257
+msgid "Total Days"
+msgstr "Wszystkie dni"
+
+#: integrations/woocommerce-rental-and-booking.php:166
+#: integrations/woocommerce-rental-and-booking.php:182
+#: integrations/woocommerce-rental-and-booking.php:198
+msgid "One Time"
+msgstr "Raz"
+
+#: integrations/woocommerce-rental-and-booking.php:154
+msgid "Location Cost"
+msgstr "Koszty lokalizacji"
+
+#: integrations/woocommerce-rental-and-booking.php:130
+#: integrations/woocommerce-rental-and-booking.php:146
+msgid " Cost"
+msgstr "Koszt"
+
+#: integrations/woocommerce-rental-and-booking.php:271
+msgid "Due Payment"
+msgstr "Podwójna płatność"
+
+#: integrations/woocommerce-rental-and-booking.php:57
+msgid "Rental Product"
+msgstr "Produkt na wynajem"
+
+#: integrations/woocommerce-rental-and-booking.php:164
+#: integrations/woocommerce-rental-and-booking.php:180
+#: integrations/woocommerce-rental-and-booking.php:196
+msgid "Per Day"
+msgstr "Za dzień"
+
+#: integrations/woocommerce-rental-and-booking.php:114
+msgid "Quote Request"
+msgstr "Prośba o wycenę"
+
+#: includes/api/wishlist.class.php:362
+msgid "Product removed from a wishlist."
+msgstr "Produkt usunięty z listy życzeń."
+
+#: includes/api/wishlist.class.php:290 includes/api/wishlist.class.php:313
+msgid "Add product to wishlist failed."
+msgstr "Dodanie produktu do listy życzeń nie powiodło się."
+
+#: includes/api/wishlist.class.php:203 includes/api/wishlist.class.php:206
+msgid "Update wishlist data failed."
+msgstr "Aktualizacja listy życzeń nie powiodła się."
+
+#: includes/api/wishlist.class.php:148
+msgid "No wishlists found for this user."
+msgstr "Nie znaleziono listy życzeń dla tego użytkownika."
+
+#: includes/api/wishlist.class.php:111 includes/api/wishlist.class.php:182
+#: includes/api/wishlist.class.php:233 includes/api/wishlist.class.php:286
+msgid "Invalid wishlist share key."
+msgstr "Nieprawidłowy klucz do udostępnienia listy życzeń."
+
+#: includes/api/wishlist.class.php:346 includes/api/wishlist.class.php:359
+msgid "Product not found."
+msgstr "Produkt nie został znaleziony."
+
+#: views/admin/premium-features.php:78
+msgid "100% No-Risk 14-Days Money Back Guarantee"
+msgstr "100% Satysfakcja, Gwarancja zwrotu w ciągu 14 dni"
+
+#: integrations/mycred.php:342
+msgid "Purchased From Wishlist"
+msgstr "Kupiono z Listy życzeń"
+
+#: integrations/mycred.php:254
+msgid "Purchasing Product from Wishlist"
+msgstr "Kupowanie produktu z Listy Życzeń"
+
+#: integrations/mycred.php:244 integrations/mycred.php:289
+msgid "required"
+msgstr "wymagane"
+
+#: integrations/mycred.php:227 integrations/mycred.php:272
+msgid "Limit"
+msgstr "Limit"
+
+#: integrations/mycred.php:214 integrations/mycred.php:259
+msgid "Points"
+msgstr "Punkty"
+
+#: integrations/mycred.php:209
+msgid "Adding Product to Wishlist"
+msgstr "Dodawnie produktu do Listy życzeń"
+
+#: integrations/mycred.php:240 integrations/mycred.php:285
+msgid "Log Template"
+msgstr "Szablon Logów"
+
+#: integrations/mycred.php:56
+msgid "Awards %_plural% for users adding products to their wishlist and purchased products from their wishlist."
+msgstr "Nagrody %_plural% dla użytkowników dodających produkty do listy życzeń i kupujących produkty z listy życzeń."
+
+#: admin/settings/general.class.php:264
+msgid "Permalinks Settings"
+msgstr "Ustawienia linków"
+
+#: admin/settings/general.class.php:270
+msgid "Force permalinks rewrite"
+msgstr "Wymuś nadpisywanie bezpośrednich odnośników"
+
+#: admin/settings/general.class.php:271
+msgid "This option should be enabled to avoid any issues with URL rewrites between other plugins and Wishlist"
+msgstr "Tę opcję należy włączyć, aby uniknąć problemów z przepisywaniem adresów URL między innymi wtyczkami i listą życzeń"
+
+#: views/wizard/step-social.php:62
+msgid "Show \"Clipboard\" Button"
+msgstr "Pokaż przycisk \"Kopiuj do schowka\""
+
+#: admin/settings/general.class.php:802 views/wizard/step-social.php:53
+msgid "Show \"WhatsApp\" Button"
+msgstr "Pokaż przycisk \"WhatsApp\""
+
+#: admin/settings/general.class.php:808
+msgid "Show \"Copy to clipboard\" Button"
+msgstr "Pokaż przycisk \"Skopiuj do schowka\""
+
+#: public/tinvwl.class.php:538
+msgid "Copied!"
+msgstr "Skopiowano!"
+
+#: admin/settings/general.class.php:937
+msgid "Hide zero value"
+msgstr "Ukryj wartość 0"
+
+#: admin/settings/general.class.php:846
+msgid "\"Wishlist\" Counter Icon"
+msgstr "\"Lista życzeń\" ikona licznika"
+
+#: admin/settings/general.class.php:878
+msgid "\"Wishlist\" Counter Icon Color"
+msgstr "\"Lista życzeń\" kolor ikony licznika"
+
+#: admin/settings/general.class.php:889
+msgid "Show \"Wishlist\" Counter Text"
+msgstr "Pokaż tekst Licznika \"Listy życzeń\""
+
+#: admin/settings/general.class.php:898
+msgid "\"Wishlist\" Counter Text"
+msgstr "\"Lista życzeń\" tekst licznika"
+
+#: admin/settings/general.class.php:905
+msgid "Add counter to menu"
+msgstr "Dodaj licznik do menu"
+
+#: admin/settings/general.class.php:916
+msgid "Counter position (Menu item order)"
+msgstr "Pozycja Licznika (Kolejność elementów Menu)"
+
+#: admin/settings/general.class.php:928
+msgid "Show number of products in counter"
+msgstr "Pokaż liczbę produktów w liczniku"
+
+#: admin/settings/general.class.php:949
+msgid "Support Chat Settings"
+msgstr "Wsparcie ustawień chatu"
+
+#: admin/settings/general.class.php:956 views/wizard/step-support.php:26
+msgid "Enable support chat"
+msgstr "Wyłącz czat ze wsparciem"
+
+#: templates/ti-wishlist-user.php:30 templates/ti-wishlist.php:30
+msgid "Select all for bulk action"
+msgstr "Wybierz wszystko dla działania masowego"
+
+#: templates/ti-wishlist-user.php:84 templates/ti-wishlist.php:85
+msgid "Select for bulk action"
+msgstr "Wybierz dla działania masowego"
+
+#: admin/settings/general.class.php:455 admin/settings/general.class.php:608
+msgid "Show preloader"
+msgstr "Pokaż preloader"
+
+#: admin/settings/general.class.php:456 admin/settings/general.class.php:609
+msgid "If enabled, applies animation for the button icon until product adding or removing processed. (Usable for servers with slow connection mostly.)"
+msgstr "Jeśli ta opcja jest włączona, używana jest animację do ikony przycisku aż do zakończenia procesu dodania lub usunięcia produktu. (Stosowany głównie dla serwerów z wolnym połączeniem)."
+
+#: admin/settings/general.class.php:388 admin/settings/general.class.php:543
+msgid "Button custom CSS class"
+msgstr "Własna klasa CSS przycisku"
+
+#: admin/settings/general.class.php:446 admin/settings/general.class.php:599
+#: admin/settings/general.class.php:829 admin/settings/general.class.php:880
+msgid "Use font color"
+msgstr "Użyj koloru czcionki"
+
+#: admin/settings/general.class.php:389 admin/settings/general.class.php:544
+msgid "You can add custom CSS classes to button markup separated by spaces. Most of themes using <code>button</code> class for this type of buttons."
+msgstr "Możesz dodać niestandardowe klasy CSS do znaczników przycisków oddzielonych spacjami. Większość motywów używa klas <code>button</code> dla tego typu przycisków."
+
+#: views/admin/premium-features.php:22
+msgid "benefit from all the features"
+msgstr "korzyści ze wszystkich funkcji"
+
+#: views/admin/premium-features.php:24
+msgid "check premium options"
+msgstr "sprawdź opcje premium"
+
+#: views/admin/premium-features.php:30
+msgid "Rate us please"
+msgstr "Oceń nas"
+
+#: views/admin/premium-features.php:38
+msgid "We love making new friends"
+msgstr "Kochamy poznawać nowych przyjaciół"
+
+#: views/admin/premium-features.php:39
+msgid "sign up for emails to get updates and instant discount"
+msgstr "zarejestruj się żeby otrzymywać maile o aktualizacjach i okazjach cenowych"
+
+#: views/admin/premium-features.php:81
+msgid "Need customization?"
+msgstr "Potrzebujesz własnych rozwiązań?"
+
+#: views/admin/premium-features.php:84
+msgid "get started now"
+msgstr "zacznijmy teraz"
+
+#: views/admin/premium-features.php:82
+msgid "Highly skilled WordPress experts are ready to satisfy your needs"
+msgstr "Wysoko wykwalifikowani eksperci WordPress są gotowi zaspokoić Twoje potrzeby"
+
+#: views/admin/premium-features.php:34
+msgid "leave a review"
+msgstr "Dodaj opinię"
+
+#: admin/tinvwl.class.php:118
+msgid "Add <code>[ti_wishlistsview]</code> shortcode into a page content."
+msgstr "Dodaj <code>[ti_wishlistsview]</code> jako shortcode do zawartości strony."
+
+#: admin/tinvwl.class.php:119
+msgid "In a plugin General Settings section apply this page as a \"Wishlist\" page."
+msgstr "W sekcji Ustawienia Główne wtyczki, zastosuj tę stronę jako stronę „Listy życzeń”."
+
+#: admin/tinvwl.class.php:117
+msgid "Create a New Page or open to edit a page where the Wishlist should be displayed."
+msgstr "Utwórz nową stronę lub otwórz, aby edytować stronę, na której powinna być wyświetlana lista życzeń."
+
+#: admin/tinvwl.class.php:116
+msgid "Since the Setup Wizard was skipped, the Wishlist may function improperly."
+msgstr "Ponieważ Kreator instalacji został pominięty, Lista życzeń może działać niepoprawnie."
+
+#: admin/tinvwl.class.php:115
+msgid "WooCommerce Wishlist Plugin is misconfigured!"
+msgstr "Wtyczka WooCommerce Wishlist jest źle skonfigurowana!"
+
+#: admin/settings/style.class.php:120
+msgid "Product Title link"
+msgstr "Link do tytułu produktu"
+
+#: admin/settings/style.class.php:338
+msgid "\"Apply Action\" button "
+msgstr "przycisk \"Zastosuj Czynność\""
+
+#: admin/settings/style.class.php:533
+msgid "Share buttons"
+msgstr "Przyciski udostępniania"
+
+#: admin/settings/style.class.php:558
+msgid "Icon Hover Color"
+msgstr "Kolor Ikony w stanie Hover"
+
+#: admin/settings/style.class.php:552
+msgid "Icon Color"
+msgstr "Kolor ikony"
+
+#: admin/settings/style.class.php:269
+msgid "\"Add to Wishlist\" product listing button"
+msgstr "Dodaj do Listy życzeń"
+
+#: admin/settings/style.class.php:258 admin/settings/style.class.php:327
+#: admin/settings/style.class.php:564
+msgid "Icon Size"
+msgstr "Rozmiar ikony"
+
+#: admin/settings/general.class.php:185 admin/settings/general.class.php:353
+msgid "Redirect to the checkout page from Wishlist if added to cart"
+msgstr "Przejdź do realizacji zamówienia ze strony Listy życzeń jeśli dodano do koszyka"
+
+#: public/tinvwl.class.php:537
+msgid "No items or actions are selected."
+msgstr "Nie wybrano przedmiotu lub czynności."
+
+#: integrations/yith-woocommerce-product-add-ons.php:72
+msgid "Base price"
+msgstr "Najlepsza cena"
+
+#: admin/settings/general.class.php:462 admin/settings/general.class.php:615
+msgid "Show button text"
+msgstr "Pokaż tekst przycisku"
+
+#: admin/settings/general.class.php:138
+msgid "Redirect to Login Page"
+msgstr "Przeniesienie do strony logowania"
+
+#: public/addtowishlist.class.php:192
+msgid "Please, login to add products to Wishlist"
+msgstr "Proszę się zalogować, żeby móc dodać produkty do Listy życzeń"
+
+#: public/addtowishlist.class.php:194
+msgid "Login"
+msgstr "Logowanie"
+
+#: admin/settings/general.class.php:128
+msgid "Require Login"
+msgstr "Wymaga zalogowania się"
+
+#: views/wizard/step-page.php:20
+msgid "Choose from existing pages or leave this field empty and the Wishlist page will be created automatically:"
+msgstr "Wybierz z istniejących stron lub zostaw to pole puste i lista zostanie stworzona automatycznie"
+
+#: admin/settings/general.class.php:796 views/wizard/step-social.php:44
+msgid "Show \"Pinterest\" Button"
+msgstr "Pokaż przycisk \"Pinterest\""
+
+#: admin/settings/general.class.php:790 views/wizard/step-social.php:35
+msgid "Show \"Twitter\" Button"
+msgstr "Pokaż przycisk \"Twitter\""
+
+#: views/wizard/intro.php:21
+msgid "Thank you for choosing the Wishlist plugin by TemplateInvaders to enhance your WooCommerce store!"
+msgstr "Dziękujemy za wybranie wtyczki Wishlist by TemplateInvaders by wspierała twój sklep WooCommerce"
+
+#: admin/settings/general.class.php:784 views/wizard/step-social.php:26
+msgid "Show \"Facebook\" Button"
+msgstr "Pokaż przycisk \"Facebook\""
+
+#: admin/settings/upgrade.class.php:56 admin/tinvwl.class.php:317
+#: views/wizard/finish.php:33
+msgid "Upgrade to Premium"
+msgstr "Zaktualizuj do premium"
+
+#: admin/tinvwl.class.php:239
+msgid "Are you sure you want to reset the settings?"
+msgstr "Jesteś pewny, że chcesz zresetować ustawienia?"
+
+#: admin/settings/general.class.php:535
+msgid "Above Thumbnail"
+msgstr "Powyżej miniatury"
+
+#: admin/basestyle.helper.php:121 admin/settings/general.class.php:978
+msgid "Reset"
+msgstr "Resetuj"
+
+#: public/widget/wishlistcounter.class.php:26
+msgid "TI Wishlist Products Counter"
+msgstr "TI Wishlist Licznik Produktów"
+
+#. translators: %s: product name
+#: public/wishlist/ajax.class.php:322 public/wishlist/ajax.class.php:334
+#: public/wishlist/ajax.class.php:410 public/wishlist/ajax.class.php:422
+msgctxt "Item name in quotes"
+msgid "&ldquo;%s&rdquo;"
+msgstr "&bdquo;%s&rdquo;"
+
+#: integrations/yith-woocommerce-product-bundles.php:100
+msgid "Out of stock"
+msgstr "Brak w magazynie"
+
+#: integrations/gift-cards-for-woocommerce.php:122
+msgid "To"
+msgstr "Do"
+
+#: integrations/gift-cards-for-woocommerce.php:119
+msgid "Note"
+msgstr "Notatka"
+
+#: integrations/gift-cards-for-woocommerce.php:128
+msgid "Address"
+msgstr "Adres"
+
+#: includes/api/yoasti18n/i18n-module.php:234
+msgid "Translation of %s"
+msgstr "Tłumaczenie %s"
+
+#: integrations/gift-cards-for-woocommerce.php:131
+msgid "Reload existing Gift Card"
+msgstr "Przeładuj Kartę Podarunkową"
+
+#: integrations/gift-cards-for-woocommerce.php:125
+msgid "To Email"
+msgstr "Na adres Email"
+
+#: includes/api/yoasti18n/i18n-module.php:236
+msgid "Register now &raquo;"
+msgstr "Zarejestruj się teraz &raquo;"
+
+#: includes/api/yoasti18n/i18n-module.php:202
+msgid "You're using WordPress in <strong>%1$s</strong>. While %2$s has been translated to %1$s for <strong>%3$d%%</strong>, it's not been shipped with the plugin yet.<br> You can help! Register at %4$s to help complete the translation to %1$s!"
+msgstr "Używasz WordPress w języku <strong>%1$s</strong>. Gdy %2$s zostanie przetłumaczony na %1$s dla <strong>%3$d%%</strong>, nie zostanie jeszcze dostarczony wraz z pluginem. <br> Możesz pomóc!  Zarejestruj się na %4$s i pomagaj w tłumaczeniu %1$s!"
+
+#: includes/api/yoasti18n/i18n-module.php:204
+msgid "You're using WordPress in a language we don't support yet. We'd love for %2$s to be translated in that language too, but unfortunately, it isn't right now. You can change that! Register at %4$s to help translate it!"
+msgstr "Używasz WordPressa w języku, dla którego nie mamy jeszcze tłumaczenia %2$s. Chcielibyśmy, by to się zmieniło. Możesz nam pomóc! Zarejestruj się na %4$s, by pomóc nam w tłumaczeniu!"
+
+#: includes/api/yoasti18n/i18n-module.php:200
+msgid "As you can see, there is a translation of this plugin in %1$s. This translation is currently %3$d%% complete. We need your help to make it complete and to fix any errors. Please register at %4$s to help complete the translation to %1$s!"
+msgstr "Jak widać, istnieje tłumaczenie wtyczki na %1$s. Tłumaczenie to jest kompletne w %3$d%%. Potrzebujemy twojej pomocy, aby je uzupełnić i usunąć ewentualne błędy. Zarejestruj się na %4$s, by pomóc nam w tłumaczeniu na %1$s!"
+
+#: views/wizard/step-button.php:57
+msgid "Show in Product listing"
+msgstr "Pokaż na Liście produktów"
+
+#: views/wizard/step-button.php:66
+msgid "\"Add to Wishlist\" Text in Product listing"
+msgstr "Dodaj do Listy życzeń"
+
+#: public/widget/wishlistcounter.class.php:36
+msgid "Show counter text"
+msgstr "Pokaż tekst licznika"
+
+#: admin/settings/general.class.php:899
+msgid "Wishlist - "
+msgstr "Lista życzeń -"
+
+#: public/widget/wishlistcounter.class.php:24
+msgid "Displays the number of products in the wishlist on your site."
+msgstr "Wyświetl liczbę produktów na liście życzeń, na swojej stronie."
+
+#: public/widget/wishlistcounter.class.php:31
+msgid "Show counter icon"
+msgstr "Pokaż ikonę licznika"
+
+#: public/widget/wishlistcounter.class.php:41
+msgid "Counter Text"
+msgstr "Tekst Licznika"
+
+#: admin/settings/general.class.php:840
+msgid "Add this shortcode <code>[ti_wishlist_products_counter]</code> anywhere into a page content to show Wishlist Counter.<br/><br/>It can be also added as a widget <code>Wishlist Products Counter</code> under the <a href=\"%s\">Appearance -> Widgets</a> section."
+msgstr "Dodaj ten kod <code> [ti_wishlist_products_counter] </code> w dowolnym miejscu strony, aby wyświetlić licznik życzeń. <br/> <br/> Można go również dodać jako widget <code> Licznik produktów listy życzeń </code> w obszarze sekcji <a href=\"%s\"> Wygląd -> Widżety </a>."
+
+#: integrations/theme-flatsome.php:175
+msgid "Wishlist Icon"
+msgstr "Ikonka listy życzeń"
+
+#: admin/settings/general.class.php:213
+msgid "Show successful notice in popup"
+msgstr "Pokaż pomyślne powiadomienie jako okienko popup"
+
+#: admin/settings/general.class.php:255
+msgid "\"Product removed from Wishlist\" Text"
+msgstr "Produkt usunięty z listy życzeń"
+
+#: admin/settings/general.class.php:500 admin/settings/general.class.php:653
+msgid "\"Remove from Wishlist\" Button Text"
+msgstr "Usuń z listy życzeń"
+
+#: admin/settings/general.class.php:508
+msgid "Product listing Button Settings"
+msgstr "Ustawienia przycisku listy produktów"
+
+#: admin/settings/general.class.php:515
+msgid "Show in Product Listing"
+msgstr "Pokaż na Liście Produktów"
+
+#: admin/settings/general.class.php:839
+msgid "Wishlist Product Counter"
+msgstr "Licznik Produktów Listy życzeń"
+
+#: admin/settings/general.class.php:538
+msgid "Note: if \"Custom position with code\" option is applied, the \"Add to Wishlist\" button should be added into template using <code>do_shortcode()</code> function like this:<br /><code>do_shortcode(\"[ti_wishlists_addtowishlist loop=yes]\")</code>"
+msgstr "Uwaga: jeśli zastosowano opcję „Niestandardowa pozycja w kodzie”, przycisk „Dodaj do listy życzeń” należy dodać do szablonu za pomocą funkcji <code> do_shortcode () </code> w następujący sposób: <br /> <code><?= do_shortcode (\"[ti_wishlists_addtowishlist loop = yes]\") ?></code>"
+
+#: admin/settings/general.class.php:509
+msgid "These are separate settings for the \"Add to Wishlist\" button on a product listing (Shop page, categories, etc.). You can also adjust button and text colors, size, etc. in a <code>TI Wishlist > Style Options.</code>"
+msgstr "Są to osobne ustawienia dla przycisku „Dodaj do listy życzeń” na liście produktów (strona sklepu, kategorie itp.). Możesz także dostosować kolory przycisków, tekst, rozmiar itp. W <code> TI Wishlist > Opcje stylu. </code>"
+
+#: admin/settings/general.class.php:178 admin/settings/general.class.php:360
+msgid "Remove by anyone"
+msgstr "Usuwanie przez każdego"
+
+#: admin/tinvwl.class.php:356
+msgid "<code>%1$s</code> version <strong style=\"color:red\">%2$s</strong> is out of date. The core version is <strong style=\"color:red\">%3$s</strong>"
+msgstr "<code>%1$s</code> wersja <strong style=\"color:red\">%2$s</strong> jest przestarzała. Obecna wersja to<strong style=\"color:red\">%3$s</strong>"
+
+#: views/admin/templates-status.php:18
+msgid "This section shows the files that are overriding the default TI WooCommerce Wishlist templates."
+msgstr "Ta sekcja pokazuje filtry które nadpisują domyślny szablon TI WooCommerce"
+
+#: admin/tinvwl.class.php:382
+msgid "<strong>Your theme (%1$s) contains outdated copies of some WooCommerce Wishlist Plugin template files.</strong><br> These files may need updating to ensure they are compatible with the current version of WooCommerce Wishlist Plugin.<br> You can see which files are affected from the <a href=\"%2$s\">system status page</a>.<br> If in doubt, check with the author of the theme."
+msgstr "<strong>Twój motyw (%1$s) zawiera nieaktualne kopie niektórych plików szablonów wtyczki WooCommerce Wishlist.</strong> <br> Pliki te mogą wymagać aktualizacji, aby upewnić się, że są zgodne z bieżącą wersją wtyczki WooCommerce Wishlist. <br> Możesz sprawdzić, na które pliki ma to wpływ, na <a href=\"%2$s\"> stronie stanu systemu </a>. <br> W razie wątpliwości skontaktuj się z autorem motywu."
+
+#: views/admin/templates-status.php:27 views/admin/templates-status.php:34
+msgid "Overrides"
+msgstr "Nadpisywanie"
+
+#: views/wizard/finish.php:18
+msgid "WooCommerce Wishlist Plugin Settings"
+msgstr "Ustawienia wtyczki WooCommerce Wishlist"
+
+#: views/admin/premium-features.php:21
+msgid "Premium version"
+msgstr "Wersja Premium"
+
+#. Plugin URI of the plugin
+msgid "https://wordpress.org/plugins/ti-woocommerce-wishlist/"
+msgstr "https://wordpress.org/plugins/ti-woocommerce-wishlist/"
+
+#: views/admin/templates-status.php:17 views/admin/templates-status.php:18
+msgid "TI WooCommerce Wishlist Templates"
+msgstr "Szablony TI WooCommerce Wishlist"
+
+#: public/wishlist/social.class.php:164
+msgid "Email"
+msgstr "E-mail"
+
+#: includes/wizard.class.php:560 views/wizard/step-support.php:18
+msgid "Support"
+msgstr "Wsparcie"
+
+#: admin/tinvwl.class.php:121
+msgid "Please apply the Wishlist page"
+msgstr "Proszę zastosuj stronę Listy życzeń"
+
+#: admin/tinvwl.class.php:102
+msgid "<strong>Welcome to WooCommerce Wishlist Plugin</strong> – You‘re almost ready to start :)"
+msgstr "<strong>Witamy we wtyczce WooCommerce Wishlist</strong> - jesteś prawie gotowy, aby rozpocząć :)"
+
+#: admin/tinvwl.class.php:114 includes/notice.helper.php:115
+msgid "Dismiss"
+msgstr "Odrzuć"
+
+#: admin/tinvwl.class.php:104 admin/tinvwl.class.php:124
+msgid "Run the Setup Wizard"
+msgstr "Uruchom kreatora konfiguracji"
+
+#: admin/tinvwl.class.php:106
+msgid "Skip Setup"
+msgstr "Pomiń konfigurację"
+
+#: admin/tinvwl.class.php:122
+msgid " or "
+msgstr " lub "
+
+#: public/tinvwl.class.php:536
+msgid "Please select some product options before adding this product to your wishlist."
+msgstr "Proszę wybierz jakiś opcje produktu zanim dodasz go to twojej listy życzeń."
+
+#: includes/tinvwl.class.php:176
+msgid "Settings"
+msgstr "Ustawienia"
+
+#: includes/tinvwl.class.php:177
+msgid "Premium Version"
+msgstr "Wersja Premium"
+
+#: includes/tinvwl.class.php:178
+msgid "Live Demo"
+msgstr "Wersja demonstracyjna"
+
+#: admin/settings/general.class.php:164
+msgid "Show Link to Wishlist in my account"
+msgstr "Pokaż Link do Listy życzeń na moim koncie"
+
+#: templates/ti-addedtowishlist-dialogbox.php:36
+msgid "Close"
+msgstr "Zamknij"
+
+#: templates/ti-wishlist-user.php:36 templates/ti-wishlist.php:37
+msgid "Product"
+msgstr "Produkt"
+
+#: views/null.php:15
+msgid "Error 404"
+msgstr "Błąd 404"
+
+#: views/wizard/step-button.php:78 views/wizard/step-page.php:61
+#: views/wizard/step-processing.php:39 views/wizard/step-social.php:85
+#: views/wizard/step-support.php:41
+msgid "Skip this step"
+msgstr "Pomiń ten krok"
+
+#: views/wizard/step-button.php:79 views/wizard/step-page.php:62
+#: views/wizard/step-processing.php:40 views/wizard/step-social.php:86
+#: views/wizard/step-support.php:42
+msgid "continue"
+msgstr "kontynuuj"
+
+#: admin/settings/general.class.php:630 views/wizard/step-button.php:42
+msgid "\"Add to Wishlist\" Text"
+msgstr "Dodaj do Listy życzeń"
+
+#: public/wishlist/view.class.php:590
+msgid "Next Page"
+msgstr "Następna strona"
+
+#: templates/ti-wishlist-empty.php:23
+msgid "Your Wishlist is currently empty."
+msgstr "Twoja lista życzeń jest pusta."
+
+#: templates/ti-wishlist-empty.php:25
+msgid "Wishlist is currently empty."
+msgstr "Lista życzeń jest pusta."
+
+#: templates/ti-wishlist-null.php:17
+msgid "Wishlist is not found!"
+msgstr "Lista życzeń nie znaleziona!"
+
+#: templates/ti-wishlist-user.php:42 templates/ti-wishlist.php:43
+msgid "Date Added"
+msgstr "Data dodania"
+
+#: views/null.php:19
+msgid "Template \"%s\" not found!"
+msgstr "Szablon \"%s\" nie znaleziony!"
+
+#: views/wizard/finish.php:15
+msgid "Congratulations"
+msgstr "Gratulacje"
+
+#: views/wizard/finish.php:16
+msgid "Your Wishlist is ready!"
+msgstr "Twoja Lista życzeń jest gotowa!"
+
+#: views/wizard/finish.php:20
+msgid "Online Documentation"
+msgstr "Dokumentacja Online"
+
+#: views/wizard/finish.php:25
+msgid "Documentation"
+msgstr "Dokumentacja"
+
+#: views/wizard/finish.php:28
+msgid "Wishlist Settings"
+msgstr "Ustawienia Listy życzeń"
+
+#: views/wizard/intro.php:16
+msgid "Welcome!"
+msgstr "Witaj!"
+
+#: views/wizard/intro.php:24
+msgid "let’s go"
+msgstr "do dzieła"
+
+#: views/wizard/intro.php:27
+msgid "Not Right Now"
+msgstr "Nie teraz"
+
+#: views/wizard/step-button.php:16
+msgid "Button options"
+msgstr "Opcje przycisku"
+
+#: views/wizard/step-processing.php:16
+msgid "Processing Options"
+msgstr "Opcje przetwarzania"
+
+#: views/wizard/step-processing.php:24
+msgid "How products should be removed from Wishlist?"
+msgstr "Jak produkt powinien być usuwany z Listy życzeń?"
+
+#. Author URI of the plugin
+msgid "https://templateinvaders.com/"
+msgstr "https://templateinvaders.com/"
+
+#: integrations/mycred.php:343
+msgid "Added To Wishlist"
+msgstr "Dodano do listy życzeń"
+
+#. Description of the plugin
+msgid "Wishlist functionality for your WooCommerce store."
+msgstr "Funkcjonalność listy życzeń dla Twojego sklepu WooCommerce."
+
+#: integrations/mycred.php:55
+msgid "WooCommerce Wishlist"
+msgstr "WooCommerce Wishlist"
+
+#: views/wizard/step-page.php:18
+msgid "The following page needs to be applied so the “Wishlist” knows where it is. "
+msgstr "Następującą stronę należy zastosować, aby „Lista życzeń” wiedziała, gdzie ona jest."
+
+#: views/wizard/step-button.php:25
+msgid "TI  Wishlists > Style Options"
+msgstr "TI  Wishlists > Opcje stylu"
+
+#: views/wizard/intro.php:22
+msgid "This quick setup wizard will help you configure the basic settings."
+msgstr "Ten kreator szybkiej konfiguracji pomoże Ci skonfigurować podstawowe ustawienia."
+
+#: views/wizard/header.php:19
+msgid "TI Wishlist &rsaquo; %s"
+msgstr "TI Wishlist &rsaquo; %s"
+
+#: views/wizard/finish.php:20
+msgid "Details about WooCommerce Wishlist Plugin options can be found in our %s."
+msgstr "Szczegóły dotyczące opcji wtyczki WooCommerce Wishlist można znaleźć w naszym %s."
+
+#. Author of the plugin
+msgid "TemplateInvaders"
+msgstr "TemplateInvaders - PL NajeźdźcySzablonu"
+
+#: templates/ti-wishlist-user.php:39 templates/ti-wishlist.php:40
+msgid "Unit Price"
+msgstr "Cena jednostkowa"
+
+#: views/wizard/step-button.php:27
+msgid " and "
+msgstr " i "
+
+#: views/wizard/intro.php:15
+msgid "Setup Wizard"
+msgstr "Kreator konfiguracji"
+
+#: templates/ti-wishlist-user.php:35 templates/ti-wishlist.php:36
+msgid "Product Name"
+msgstr "Nazwa produktu"
+
+#: views/wizard/footer.php:18
+msgid "Return to the WordPress Dashboard"
+msgstr "Powrót do kokpitu WordPressa"
+
+#: integrations/woo-product-bundle.php:113
+#: integrations/woocommerce-composite-products.php:142
+#: integrations/woocommerce-mix-and-match-products.php:112
+#: integrations/woocommerce-product-bundles.php:134
+#: integrations/yith-woocommerce-product-bundles.php:165
+#: templates/ti-wishlist-user.php:143 templates/ti-wishlist.php:151
+msgid "In stock"
+msgstr "Na stanie"
+
+#: templates/ti-wishlist-user.php:45 templates/ti-wishlist.php:46
+msgid "Stock Status"
+msgstr "Stan magazynowy"
+
+#: templates/ti-wishlist-empty.php:33 templates/ti-wishlist-null.php:24
+msgid "Return To Shop"
+msgstr "Powrót do sklepu"
+
+#: admin/settings/general.class.php:745
+msgid "Show \"Add All to Cart\" button"
+msgstr "Pokaż przycisk \"Dodaj wszystko do koszyka\""
+
+#: admin/settings/general.class.php:727
+msgid "Show \"Add Selected to Cart\" button"
+msgstr "Pokaż przycisk \"Dodaj wybrane do koszyka\""
+
+#: admin/basestyle.helper.php:58
+msgid "Templates"
+msgstr "Szablony"
+
+#: admin/basestyle.helper.php:127 admin/settings/general.class.php:984
+#: admin/settings/integrations.class.php:121
+msgid "Save"
+msgstr "Zapisz"
+
+#: admin/settings/style.class.php:141
+msgid "Yes"
+msgstr "Tak"
+
+#: admin/settings/style.class.php:142
+msgid "No"
+msgstr "Nie"
+
+#: includes/wizard.class.php:290
+msgid "Introduction"
+msgstr "Wprowadzenie"
+
+#: includes/wizard.class.php:308 views/wizard/step-page.php:16
+msgid "Page Setup"
+msgstr "Ustawienia strony"
+
+#: public/wishlist/buttons.class.php:236 templates/ti-wishlist.php:93
+msgid "Remove"
+msgstr "Usuń"
+
+#: includes/wizard.class.php:486
+msgid "Automatically"
+msgstr "Automatycznie"
+
+#: admin/settings/general.class.php:447 admin/settings/general.class.php:600
+#: admin/settings/general.class.php:881
+msgid "Black"
+msgstr "Czarny"
+
+#: admin/settings/style.class.php:56
+msgid "Style Options"
+msgstr "Opcje stylu"
+
+#: admin/settings/general.class.php:374 admin/settings/general.class.php:530
+#: views/wizard/step-button.php:33
+msgid "Button position"
+msgstr "Pozycja przycisku"
+
+#: admin/settings/general.class.php:448 admin/settings/general.class.php:601
+#: admin/settings/general.class.php:831 admin/settings/general.class.php:882
+msgid "White"
+msgstr "Biały"
+
+#: admin/basestyle.helper.php:65
+msgid "Use Theme style"
+msgstr "Użyj stylu motywu"
+
+#: admin/basestyle.helper.php:115 admin/settings/general.class.php:972
+#: admin/settings/integrations.class.php:115
+msgid "Save Settings"
+msgstr "Zapisz ustawienia"
+
+#: includes/wizard.class.php:428
+msgid "Button"
+msgstr "Przycisk"
+
+#: admin/basestyle.helper.php:82 admin/basestyle.helper.php:89
+msgid "Template Custom CSS"
+msgstr "Własne Style CSS Szablonu"
+
+#: admin/settings/general.class.php:114 views/wizard/step-page.php:28
+msgid "Default Wishlist Name"
+msgstr "Domyślna nazwa Listy życzeń"
+
+#: admin/settings/general.class.php:120 admin/tinvwl.class.php:442
+msgid "Wishlist Page"
+msgstr "Strona Listy życzeń"
+
+#: admin/settings/general.class.php:171
+msgid "Remove Product from Wishlist if added to cart"
+msgstr "Usuń produkt z Listy życzeń jeśli został dodany do koszyka"
+
+#: admin/settings/general.class.php:224
+msgid "\"View Wishlist\" button Text"
+msgstr "Pokaż Listę"
+
+#: admin/settings/general.class.php:231
+msgid "Redirect to Wishlist"
+msgstr "Przeniesienie do Listy życzeń"
+
+#: admin/settings/general.class.php:239
+msgid "\"Product added to Wishlist\" Text"
+msgstr "Produkt został dodany do Listy życzeń"
+
+#: admin/settings/general.class.php:247
+msgid "\"Product already in Wishlist\" Text"
+msgstr "Produkt znajduje się na liście życzeń"
+
+#: admin/settings/general.class.php:311
+msgid "Wishlist Page Options"
+msgstr "Opcje Strony Lista życzeń"
+
+#: admin/settings/general.class.php:312 admin/settings/general.class.php:329
+msgid "Coming soon"
+msgstr "Wkrótce"
+
+#: admin/settings/general.class.php:319 views/wizard/step-page.php:41
+msgid "My Wishlist"
+msgstr "Moja Lista Życzeń"
+
+#: admin/settings/general.class.php:328
+msgid "Wishlist Processing Options"
+msgstr "Opcje Przetwarzania Listy życzeń"
+
+#: admin/settings/general.class.php:336
+msgid "Automatic removal"
+msgstr "Automatyczne usuwanie"
+
+#: admin/settings/general.class.php:343
+msgid "Remove condition"
+msgstr "Usuń warunek"
+
+#: admin/settings/general.class.php:368
+msgid "Product page \"Add to Wishlist\" Button Settings"
+msgstr "Ustawienia przycisku na stronie \"Dodaj do Listy życzeń\""
+
+#: admin/settings/general.class.php:378 admin/settings/general.class.php:533
+#: includes/wizard.class.php:440
+msgid "After \"Add to Cart\" button"
+msgstr "Po przycisku \"Kup teraz\""
+
+#: admin/settings/general.class.php:379 admin/settings/general.class.php:534
+#: includes/wizard.class.php:441
+msgid "Before \"Add to Cart\" button"
+msgstr "Przed przyciskiem Kup teraz"
+
+#: admin/settings/general.class.php:382 admin/settings/general.class.php:536
+#: includes/wizard.class.php:442
+msgid "Custom position with code"
+msgstr "Własna pozycja w kodzie"
+
+#: admin/settings/general.class.php:398 admin/settings/general.class.php:553
+msgid "\"Add to Wishlist\" Icon"
+msgstr "Dodaj do Listy życzeń"
+
+#: admin/settings/general.class.php:82 admin/settings/general.class.php:402
+#: admin/settings/general.class.php:556 admin/settings/general.class.php:849
+msgid "None"
+msgstr "Żaden"
+
+#: admin/settings/general.class.php:403 admin/settings/general.class.php:557
+#: admin/settings/general.class.php:850
+msgid "Heart"
+msgstr "Serce"
+
+#: admin/settings/general.class.php:404 admin/settings/general.class.php:558
+#: admin/settings/general.class.php:851
+msgid "Heart+"
+msgstr "Serce+"
+
+#: admin/settings/general.class.php:444 admin/settings/general.class.php:597
+msgid "\"Add to Wishlist\" Icon Color"
+msgstr "Dodaj do Listy życzeń"
+
+#: admin/settings/general.class.php:477
+msgid "\"Add to Wishlist\" button Text"
+msgstr "Dodaj do Listy życzeń"
+
+#: admin/settings/general.class.php:661
+msgid "Wishlist Product Settings"
+msgstr "Ustawienia Produktu Listy życzeń"
+
+#: admin/settings/general.class.php:668
+msgid "Show \"Add to Cart\" button"
+msgstr "Pokaż przycisk \"Kup teraz\""
+
+#: admin/settings/general.class.php:675
+msgid "\"Add to Cart\" Text"
+msgstr "Kup teraz"
+
+#: admin/settings/general.class.php:682
+msgid "Show Unit price"
+msgstr "Pokaż cenę"
+
+#: admin/settings/general.class.php:688
+msgid "Show Stock status"
+msgstr "Pokaż dostępność"
+
+#: admin/settings/general.class.php:694
+msgid "Show Date of addition"
+msgstr "Pokaż datę dodania"
+
+#: admin/settings/general.class.php:701
+msgid "Wishlist Table Settings"
+msgstr "Ustawienia Tabeli Listy życzeń"
+
+#: admin/settings/general.class.php:708
+msgid "Show Checkboxes"
+msgstr "Pokaż Pola zaznaczania"
+
+#: admin/settings/general.class.php:720
+msgid "Show Actions button"
+msgstr "Pokaż przyciski Czynności"
+
+#: admin/settings/general.class.php:734
+msgid "\"Add Selected to Cart\" Button Text"
+msgstr "Dodaj wybrane do koszyka"
+
+#: admin/settings/general.class.php:752
+msgid "\"Add All to Cart\" Button Text"
+msgstr "Dodaj wszytko do koszyka"
+
+#: admin/settings/general.class.php:814 views/wizard/step-social.php:71
+msgid "Show \"Share by Email\" Button"
+msgstr "Pokaż przycisk \"Udostępnij przez Email\""
+
+#: admin/settings/general.class.php:820
+msgid "\"Share on\" Text"
+msgstr "Udostępnij"
+
+#: admin/settings/general.class.php:826
+msgid "Social Icons Color"
+msgstr "Kolor ikony Social Mediów"
+
+#: admin/settings/general.class.php:830
+msgid "Dark"
+msgstr "Ciemny"
+
+#: admin/settings/style.class.php:57
+msgid "Wishlist Style Options"
+msgstr "Ustawienia Stylów Listy życzeń"
+
+#: admin/settings/style.class.php:71
+msgid "Use Default Font"
+msgstr "Użyj domyślnej czcionki"
+
+#: admin/settings/style.class.php:88
+msgid "text"
+msgstr "tekst"
+
+#: admin/settings/style.class.php:101
+msgid "Title Font Size"
+msgstr "Rozmiar czcionki tytułu"
+
+#: admin/settings/style.class.php:107 admin/settings/style.class.php:483
+#: admin/settings/style.class.php:582
+msgid "Content Text Color"
+msgstr "Kolor tekstu zawartości"
+
+#: admin/settings/style.class.php:113 admin/settings/style.class.php:149
+#: admin/settings/style.class.php:187 admin/settings/style.class.php:244
+#: admin/settings/style.class.php:313 admin/settings/style.class.php:369
+#: admin/settings/style.class.php:419
+msgid "Font"
+msgstr "Czcionka"
+
+#: admin/settings/style.class.php:127
+msgid "Color"
+msgstr "Kolor"
+
+#: admin/settings/style.class.php:139
+msgid "Underline"
+msgstr "Podkreślenie"
+
+#: admin/settings/style.class.php:156
+msgid "fields"
+msgstr "pola"
+
+#: admin/settings/style.class.php:163 admin/settings/style.class.php:207
+#: admin/settings/style.class.php:276 admin/settings/style.class.php:345
+#: admin/settings/style.class.php:395 admin/settings/style.class.php:445
+#: admin/settings/style.class.php:540 admin/settings/style.class.php:576
+msgid "Background Color"
+msgstr "Kolor tła"
+
+#: admin/settings/style.class.php:169 admin/settings/style.class.php:451
+msgid "Border Color"
+msgstr "Kolor obramowania"
+
+#: admin/settings/style.class.php:181 admin/settings/style.class.php:231
+#: admin/settings/style.class.php:300 admin/settings/style.class.php:357
+#: admin/settings/style.class.php:407
+msgid "Text Color"
+msgstr "Kolor tekstu"
+
+#: admin/settings/style.class.php:195
+msgid "Select Font Size"
+msgstr "Wybierz rozmiar czcionki"
+
+#: admin/settings/style.class.php:200
+msgid "\"Add to Wishlist\" product page button"
+msgstr "Dodaj do Listy życzeń"
+
+#: admin/settings/style.class.php:213 admin/settings/style.class.php:282
+#: admin/settings/style.class.php:351 admin/settings/style.class.php:401
+#: admin/settings/style.class.php:546
+msgid "Background Hover Color"
+msgstr "Kolor tła w stanie Hover"
+
+#: admin/settings/style.class.php:219 admin/settings/style.class.php:288
+msgid "Button Text Color"
+msgstr "Kolor tekstu przycisku"
+
+#: admin/settings/style.class.php:225 admin/settings/style.class.php:294
+msgid "Button Text Hover Color"
+msgstr "Kolor tekstu przycisku w stanie Hover"
+
+#: admin/settings/style.class.php:438
+msgid "table"
+msgstr "tabela"
+
+#: admin/settings/style.class.php:457
+msgid "Table Head Background Color"
+msgstr "Kolor tła nagłówka tabeli"
+
+#: admin/settings/style.class.php:463
+msgid "Table Head Text Color"
+msgstr "Główny Kolor Tekstu Tabeli"
+
+#: admin/settings/style.class.php:469
+msgid "Table Head Font"
+msgstr "Główna Czcionka Tabeli"
+
+#: admin/settings/style.class.php:477
+msgid "Table Head Font Size"
+msgstr "Główny Rozmiar Tekstu Tabeli"
+
+#: admin/settings/style.class.php:489 admin/settings/style.class.php:588
+msgid "Content Text Font"
+msgstr "Czcionka tekstu zawartości"
+
+#: admin/settings/style.class.php:497 admin/settings/style.class.php:596
+msgid "Content Text Font Size"
+msgstr "Wielkość czcionki tekstu zawartości"
+
+#: admin/settings/style.class.php:503
+msgid "Price Color"
+msgstr "Kolor Ceny"
+
+#: admin/settings/style.class.php:509
+msgid "Price Font"
+msgstr "Czcionka Ceny"
+
+#: admin/settings/style.class.php:523
+msgid "Special Price Color"
+msgstr "Kolor ceny specjalnej"
+
+#: admin/settings/style.class.php:529
+msgid "Special Price Background Color"
+msgstr "Kolor tła ceny specjalnej"
+
+#: admin/settings/style.class.php:569
+msgid "popups"
+msgstr "Popupy"
+
+#: admin/settings/style.class.php:602
+msgid "Normal Buttons Background Color"
+msgstr "Kolor Tła Standardowych Przycisków"
+
+#: admin/settings/style.class.php:608
+msgid "Normal Buttons Background Hover Color"
+msgstr "Kolor stanu Hover Standardowych Przycisków"
+
+#: admin/settings/style.class.php:614
+msgid "Normal Buttons Text Color"
+msgstr "Kolor Tekstu Standardowego Przycisku"
+
+#: admin/settings/style.class.php:620
+msgid "Normal Buttons Text Hover Color"
+msgstr "Kolor stanu Hover Standardowego Przycisku"
+
+#: includes/form.helper.php:527
+msgid "Preview"
+msgstr "Podgląd"
+
+#: includes/pluginextend.helper.php:537 includes/pluginextend.helper.php:606
+msgid "%2$s %3$s is required for %1$s. Deactivating %1$s."
+msgstr "%2$s %3$s jest wymagane dla %1$s. Dezaktywuję %1$s."
+
+#: includes/pluginextend.helper.php:546
+msgid "%1$s is confilcted with %2$s %3$s. Deactivating %1$s."
+msgstr "%1$s jest skonfliktowane z %2$s %3$s. Dezaktywuję %1$s."
+
+#: includes/pluginextend.helper.php:555 includes/pluginextend.helper.php:624
+msgid "%2$s %3$s is required. Please update it before activating this plugin."
+msgstr "%2$s %3$s jest wymagane. Proszę zaktualizuj to zanim aktywujesz wtyczkę."
+
+#: includes/pluginextend.helper.php:560 includes/pluginextend.helper.php:629
+msgid "%2$s %3$s is required. Please downgrade it before activating this plugin."
+msgstr "%2$s %3$s jest wymagane. Proszę zmień na niższą wersję zanim aktywujesz wtyczkę."
+
+#: includes/pluginextend.helper.php:564 includes/pluginextend.helper.php:633
+msgid "%2$s %3$s is required. Please activate it before activating this plugin."
+msgstr "%2$s %3$s jest wymagane. Prosimy aktywuj to zanim aktywujesz wtyczkę."
+
+#: includes/pluginextend.helper.php:568 includes/pluginextend.helper.php:637
+msgid "%1$s is conflicted with %2$s %3$s. Please disable it before activating this plugin."
+msgstr "%1$s jest skonfliktowane z %2$s %3$s. Proszę wyłącz to zanim aktywujesz plugin."
+
+#: includes/pluginextend.helper.php:572 includes/pluginextend.helper.php:641
+msgid "%1$s %3$s is required. Please activate it before activating this plugin."
+msgstr "%1$s %3$s jest wymagany. Proszę aktywuj to zanim aktywujesz wtyczkę."
+
+#: includes/view.helper.php:183
+msgid "Attention!"
+msgstr "Uwaga!"
+
+#: includes/view.helper.php:199
+msgid "Errors(%s)"
+msgstr "Błędy(%s)"
+
+#: includes/view.helper.php:215
+msgid "Useful Tip"
+msgstr "Przydatne podpowiedzi"
+
+#: includes/view.helper.php:356
+msgid "read documentation"
+msgstr "czytaj dokumentację"
+
+#: includes/wizard.class.php:317 includes/wizard.class.php:349
+#: integrations/theme-flatsome.php:124 integrations/theme-flatsome.php:167
+#: integrations/theme-flatsome.php:245 integrations/theme-flatsome.php:284
+#: public/tinvwl.class.php:698 views/header.php:25
+msgid "Wishlist"
+msgstr "Lista życzeń"
+
+#: includes/wizard.class.php:321
+msgid "Create Automatically"
+msgstr "Utwórz Automatycznie"
+
+#: includes/wizard.class.php:322
+msgid "Create new Page"
+msgstr "Utwórz nową Stronę"
+
+#: includes/wizard.class.php:513 views/wizard/step-social.php:18
+msgid "Share"
+msgstr "Udostępnij"
+
+#: includes/wizard.class.php:592
+msgid "Ready!"
+msgstr "Gotowy!"
+
+#: public/wishlist/buttons.class.php:60
+msgid "Apply %s"
+msgstr "Zastosuj %s"
+
+#: public/wishlist/ajax.class.php:141
+msgid "%s has been removed from wishlist."
+msgstr "%s usunięty z listy życzeń."
+
+#: public/wishlist/ajax.class.php:151
+msgid "%s has not been removed from wishlist."
+msgstr "%s nie został usunięty z listy życzeń."
+
+#: public/wishlist/view.class.php:444
+msgid "Return to Wishlist"
+msgstr "Powrót do Listy życzeń"
+
+#: public/wishlist/view.class.php:563
+msgid "Previous Page"
+msgstr "Poprzednia strona"
+
+#: public/wishlist/ajax.class.php:259
+msgid "%s has been successfully removed from wishlist."
+msgid_plural "%s have been successfully removed from wishlist."
+msgstr[0] "%s został pomyślnie usunięty z listy życzeń."
+msgstr[1] "%s zostały pomyślnie usunięte z listy życzeń."
+msgstr[2] "%s zostało pomyślnie usuniętych z listy życzeń."
+
+#: admin/settings/general.class.php:108
+msgid "Wishlist page needs to be selected so the plugin knows where it is. This page should be created upon installation of the plugin, if not you will need to create it manually."
+msgstr "Do prawidłowego działania wtyczki musi być ustawiona strona listy życzeń. Strona powinna zostać utworzona w czasie instalacji wtyczki, jeżeli tak się nie stało, należy ją utworzyć ręcznie."
+
+#: admin/settings/general.class.php:399 admin/settings/general.class.php:854
+msgid "You can choose from our predefined icons or upload your custom icon. Custom icon size is limited to 16x16 px."
+msgstr "Możesz wybrać ikonę lub załączyć własną. Własna ikona musi mieć rozmiar 16x16px"
+
+#: admin/settings/general.class.php:375
+msgid "Add this shortcode <code>[ti_wishlists_addtowishlist]</code> anywhere on product page, if you have chosen custom position for product button. You will have to do this for each product."
+msgstr "Dodaj ten shortcode <code>[ti_wishlists_addtowishlist]</code> wszędzie na stronie produktu, jeżeli wybrałeś własną pozycję dla tego przycisku, musisz to zrobić dla każdego produktu"
+
+#: admin/settings/general.class.php:778
+msgid "Social Networks Sharing Options"
+msgstr "Social Network  opcje dzielenia"
+
+#: admin/settings/general.class.php:702
+msgid "Following options will help user to manage and add products to cart from wishlist table in bulk."
+msgstr "Te opcje pomogą użytkownikowi zbiorczo zarządzać produktami i dodawać je do koszyka z tabeli życzeń."
+
+#: admin/settings/general.class.php:422 admin/settings/general.class.php:435
+#: admin/settings/general.class.php:575 admin/settings/general.class.php:588
+#: admin/settings/general.class.php:869
+msgid "Upload"
+msgstr "Prześlij"
+
+#: admin/settings/style.class.php:95
+msgid "Title Color"
+msgstr "Kolor tytułu"
+
+#: public/wishlist/buttons.class.php:227
+msgid "Actions"
+msgstr "Działania"
+
+#: admin/basestyle.helper.php:74
+msgid "Template Options"
+msgstr "Opcje szablonu"
+
+#: public/wishlist/buttons.class.php:60
+msgid "Action"
+msgstr "Akcja"
+
+#: admin/settings/general.class.php:405 admin/settings/general.class.php:559
+#: admin/settings/general.class.php:852
+msgid "Custom"
+msgstr "Własne"
+
+#: admin/settings/general.class.php:346
+msgid "Add to Cart"
+msgstr "Dodaj do koszyka"
+
+#: public/tinvwl.class.php:532
+msgid "Create New"
+msgstr "Utwórz"
+
+#: includes/wizard.class.php:487
+msgid "Manual"
+msgstr "Podręcznik"
+
+#: includes/wizard.class.php:475
+msgid "Processing"
+msgstr "W trakcie realizacji"
+
+#: admin/settings/style.class.php:133
+msgid "Hover Color"
+msgstr "Kolor podświetlenia"
+
+#: admin/settings/general.class.php:69 admin/settings/general.class.php:107
+msgid "General Settings"
+msgstr "Ustawienia główne"
+
+#: admin/settings/upgrade.class.php:57
+msgid "Premium Features"
+msgstr "Elementy premium"
+
+#: admin/settings/style.class.php:237 admin/settings/style.class.php:306
+#: admin/settings/style.class.php:363 admin/settings/style.class.php:413
+msgid "Text Hover Color"
+msgstr "Kolor tekstu po najechaniu myszką"
+
+#: admin/settings/style.class.php:252 admin/settings/style.class.php:321
+#: admin/settings/style.class.php:377 admin/settings/style.class.php:427
+msgid "Font Size"
+msgstr "Wielkość liter"
+
+#: public/wishlist/ajax.class.php:134 public/wishlist/ajax.class.php:175
+#: public/wishlist/ajax.class.php:251
+msgid "&ldquo;%s&rdquo;"
+msgstr "&bdquo;%s&rdquo;"
+
+#: admin/settings/style.class.php:388
+msgid "add to cart button"
+msgstr "przycisk dodaj do koszyka"
+
+#: admin/settings/style.class.php:175 admin/settings/style.class.php:264
+#: admin/settings/style.class.php:333 admin/settings/style.class.php:383
+#: admin/settings/style.class.php:433
+msgid "Border Radius"
+msgstr "Zaokrąglenie obramowania"
+
+#: admin/settings/style.class.php:517
+msgid "Price Font Size"
+msgstr "Rozmiar czcionki ceny"
+
+#: public/wishlist/view.class.php:392
+msgid "%1$s by %2$s"
+msgstr "%1$s autorstwa %2$s"

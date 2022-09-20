@@ -1,0 +1,11 @@
+2022-09-20T15:23:37+00:00 CRITICAL Uncaught Error: Call to undefined function wp_trip_all_tags() in D:\xampp\htdocs\wordpress\wp-content\themes\woostify\inc\widget\class-woostify-recent-post-thumbnail.php:148
+Stack trace:
+#0 D:\xampp\htdocs\wordpress\wp-includes\class-wp-widget.php(456): Woostify_Recent_Post_Thumbnail->update(Array, Array)
+#1 D:\xampp\htdocs\wordpress\wp-admin\includes\ajax-actions.php(2366): WP_Widget->update_callback(Array)
+#2 D:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(307): wp_ajax_save_widget('')
+#3 D:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#4 D:\xampp\htdocs\wordpress\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#5 D:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(187): do_action('wp_ajax_save-wi...')
+#6 {main}
+  thrown w D:\xampp\htdocs\wordpress\wp-content\themes\woostify\inc\widget\class-woostify-recent-post-thumbnail.php w linii 148
+
